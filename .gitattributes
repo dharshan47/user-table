@@ -1,0 +1,16 @@
+# Ignore build and dependency folders
+.next/* linguist-vendored
+out/* linguist-vendored
+build/* linguist-vendored
+dist/* linguist-vendored
+node_modules/* linguist-vendored
+
+# Ignore JS config files (so they don’t boost JavaScript percentage)
+*.config.js linguist-vendored
+next.config.js linguist-vendored
+postcss.config.js linguist-vendored
+tailwind.config.js linguist-vendored
+
+# Force TypeScript detection
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
